@@ -184,7 +184,9 @@ Creates a new survey response
 >**user_id**: *int* Owning user of the survey response
 #### Errors
 400 Bad Request: Required parameters missing or invalid
+
 403 Forbidden: No remaining spaces available on survey
+
 404 Not Found: No survey found with ID specified
 #### Examples
 ```
