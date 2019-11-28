@@ -1,5 +1,7 @@
 # SurveysAPI
 
+This project is a simple API built using Python/Django REST Framework for storing data about surveys and responses to surveys.
+
 ## Setup
 - Install [Python](https://www.python.org/downloads/) (3.x)
 
