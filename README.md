@@ -13,7 +13,7 @@
 - Initialise database
 ```
 >>python manage.py makemigrations surveys
->>python manage.py migrate surveys
+>>python manage.py migrate
 ```
 >As this is a demonstrator project focused on the building of the API, Django's in-built SQLite database has been used.
 For details of setting up a django project with other databases, see the [Django documentation](https://docs.djangoproject.com/en/2.2/topics/install/#database-installation).
