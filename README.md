@@ -120,6 +120,7 @@ List all survey responses in database
 ```
 >>curl -XGET "http://localhost:8000/api/survey-responses/"
 
+HTTP 200 OK
 [
     {
         "id": 1,
@@ -145,6 +146,7 @@ List all survey responses in database
 ```
 >>curl -XGET "http://localhost:8000/api/survey-responses/?user=1"
 
+HTTP 200 OK
 [
     {
         "id": 2,
